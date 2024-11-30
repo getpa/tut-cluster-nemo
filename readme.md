@@ -13,6 +13,7 @@
 # How to use
 + `conda`または`mamba`が使える環境を用意します
 + `nvcr.io/nvidia/pytorch:22.12-py3`を指定した計算サーバにインタラクティブモードで入ります
+    - このイメージはxsnd*ノードのGPUと互換性がある（CUDA11.8）最後のtorchイメージです．
 + `00install.sh`を実行します（`nemo`環境が作成されます）
 + (Optional) Shallow FusionなどのASR+LMタスクを行う場合は`01install.sh`を実行します
 + 計算サーバから`exit`します
